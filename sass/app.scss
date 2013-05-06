@@ -1,0 +1,229 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "foundation/foundation-global"; // *always required
+// @import "foundation/components/global"; // *always required
+// @import "foundation/components/grid";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+.nav-header{
+    border-top: 2px solid red;
+    background: url("../img/gradient-header.jpg");
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 5px 5px 10px #696969;
+    -moz-box-shadow: 5px 5px 10px #696969;
+    box-shadow: 5px 5px 10px #696969;
+}
+.top-button{
+    a{
+        -webkit-box-shadow: 0px 5px 10px #696969;
+        -moz-box-shadow: 0px 5px 10px #696969;
+        box-shadow: 0px 5px 10px #696969;
+        background-image: -moz-linear-gradient(left, #4d4d4d, #7d7d7d);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #4d4d4d), color-stop(1.0, #7d7d7d));
+        background-color: #DDDDDD;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+        border: 1px solid #7d7d7d;
+	display:inline-block;
+	color: white;
+	padding:2px 15px;
+        font-size: 0.8em;
+	text-decoration:none;
+        margin-right: 25px;
+        margin-top: 90px;
+    }
+    .a:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+    }
+    .a:active {
+	position:relative;
+	top:1px;
+    }
+}
+.trade-name{
+    h3{
+        padding-top: 10%;
+    }
+}
+
+.nav-buttons{
+    padding-left: 20px;
+    a{
+        -webkit-box-shadow: 0px 5px 10px #696969;
+        -moz-box-shadow: 0px 5px 10px #696969;
+        box-shadow: 0px 5px 10px #696969;
+        background-image: -moz-linear-gradient(left, #4d4d4d, #7d7d7d);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #4d4d4d), color-stop(1.0, #7d7d7d));
+        background-color: #DDDDDD;
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+        border: 1px solid #7d7d7d;
+	display:inline-block;
+	color: white;
+	padding:10px 15px;
+        font-size: 0.8em;
+	text-decoration:none;
+        margin-right: 25px;
+        margin-top: 0;
+    }
+    .a:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+    }
+    .a:active {
+	position:relative;
+	top:1px;
+    }
+}
+.nav-main{
+    border-right: 1px solid black;
+    border-left: 1px solid black;  
+}
+.left-holder{
+    width: 600px;
+    height: 550px;
+    background: url("../img/index-left.jpg") no-repeat;
+}
+.right-holder{
+    width: 380px;
+    height: 550px;
+    background: url(../img/index-right.jpg) no-repeat;
+}
+.maximizing-left-holder{
+    width: 480px;
+    height: 550px;
+    background: url("../img/maximizing-left.jpg") no-repeat;
+}
+.maximizing-right-holder{
+    width: 480px;
+    height: 550px;
+    background: url(../img/maximizing-right.jpg) no-repeat;
+}
+.employee-left-holder{
+    width: 600px;
+    height: 550px;
+    background: url("../img/employee-left.jpg") no-repeat;
+}
+.employee-right-holder{
+     width: 380px;
+    height: 550px;
+    background: url(../img/employee-right.jpg) no-repeat;
+}
+.stabilization-left-holder{
+    width: 333px;
+    height: 550px;
+    background: url("../img/stabilization-left.jpg") no-repeat;
+}
+.stabilization-middle-holder{
+    width: 333px;
+    height: 550px;
+    background: url(../img/stabilization-middle.jpg) no-repeat;
+}
+.stabilization-right-holder{
+    width: 333px;
+    height: 550px;
+    background: url("../img/stabilization-right.jpg") no-repeat;
+}
+.improvement-left-holder{
+    width: 480px;
+    height: 550px;
+    background: url("../img/improvement-left.jpg") no-repeat;
+}
+.improvement-right-holder{
+    width: 480px;
+    height: 550px;
+    background: url("../img/improvement-right.jpg") no-repeat;
+}
+
+.customer-left-holder{
+    width: 480px;
+    height: 550px;
+    background: url("../img/customer-left.jpg") no-repeat;
+}
+.customer-right-holder{
+    width: 480px;
+    height: 550px;
+    background: url(../img/customer-right.jpg) no-repeat;
+}
+.contact-left-holder{
+    width: 480px;
+    height: 550px;
+    background: url("../img/contact-left.jpg") no-repeat;
+}
+.contact-right-holder{
+    width: 480px;
+    height: 550px;
+    background: url(../img/contact-right.jpg) no-repeat;
+}
+.about-left-holder{
+    width: 480px;
+    height: 550px;
+    background: url("../img/about-left.jpg") no-repeat;
+}
+.about-right-holder{
+    width: 480px;
+    height: 550px;
+    background: url(../img/about-right.jpg) no-repeat;
+}
+.body-main{
+    border-right: 1px solid black;
+    border-left: 1px solid black;    
+}
+.footer-style{
+    background: url(../img/footer-img.jpg) no-repeat;
+    height: 24px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;   
+    border-bottom: 1px solid black;   
+    -webkit-box-shadow: 5px 5px 10px #696969;
+    -moz-box-shadow: 5px 5px 10px #696969;
+    box-shadow: 5px 5px 10px #696969;
+}
