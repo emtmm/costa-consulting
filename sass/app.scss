@@ -44,15 +44,20 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
-.nav-header{
+.background-header{
+    height: 130px;
+    background-image: -moz-linear-gradient(left, #FFFFFF 51%, #a7abae);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.51, #FFFFFF), color-stop(1.0, #a7abae));
+    background-color: #DDDDDD;
     border-top: 2px solid red;
-    background: url("../img/gradient-header.jpg");
-    border-right: 1px solid black;
-    border-left: 1px solid black;
     border-bottom: 1px solid black;
     -webkit-box-shadow: 5px 5px 10px #696969;
     -moz-box-shadow: 5px 5px 10px #696969;
     box-shadow: 5px 5px 10px #696969;
+}
+.nav-header{
+    
+    
 }
 .top-button{
     a{
@@ -69,7 +74,7 @@
 	display:inline-block;
 	color: white;
 	padding:2px 15px;
-        font-size: 0.8em;
+        font-size: 0.7em;
 	text-decoration:none;
         margin-right: 25px;
         margin-top: 90px;
@@ -124,8 +129,7 @@
     }
 }
 .nav-main{
-    border-right: 1px solid black;
-    border-left: 1px solid black;  
+    
 }
 .left-holder{
     width: 600px;
@@ -214,16 +218,16 @@
     background: url(../img/about-right.jpg) no-repeat;
 }
 .body-main{
-    border-right: 1px solid black;
-    border-left: 1px solid black;    
+    
 }
-.footer-style{
-    background: url(../img/footer-img.jpg) no-repeat;
-    height: 24px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;   
+.background-footer{
+    background-image: -moz-linear-gradient(left, #cbcbcb 51%, #a9adb0);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.51, #cbcbcb), color-stop(1.0, #a9adb0));
+    background-color: #DDDDDD;
+    height: 24px;    
     border-bottom: 1px solid black;   
-    -webkit-box-shadow: 5px 5px 10px #696969;
-    -moz-box-shadow: 5px 5px 10px #696969;
-    box-shadow: 5px 5px 10px #696969;
+}
+.footer-style p{
+    font-size:0.6em;
+    
 }

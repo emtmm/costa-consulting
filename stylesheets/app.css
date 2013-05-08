@@ -5464,18 +5464,19 @@ table tfoot tr td {
 }
 
 /* line 47, ../sass/app.scss */
-.nav-header {
+.background-header {
+  height: 130px;
+  background-image: -moz-linear-gradient(left, white 51%, #a7abae);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.51, white), color-stop(1, #a7abae));
+  background-color: #DDDDDD;
   border-top: 2px solid red;
-  background: url("../img/gradient-header.jpg");
-  border-right: 1px solid black;
-  border-left: 1px solid black;
   border-bottom: 1px solid black;
   -webkit-box-shadow: 5px 5px 10px #696969;
   -moz-box-shadow: 5px 5px 10px #696969;
   box-shadow: 5px 5px 10px #696969;
 }
 
-/* line 58, ../sass/app.scss */
+/* line 63, ../sass/app.scss */
 .top-button a {
   -webkit-box-shadow: 0px 5px 10px #696969;
   -moz-box-shadow: 0px 5px 10px #696969;
@@ -5490,34 +5491,34 @@ table tfoot tr td {
   display: inline-block;
   color: white;
   padding: 2px 15px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-decoration: none;
   margin-right: 25px;
   margin-top: 90px;
 }
-/* line 77, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 .top-button .a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
   background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
   background-color: #dfdfdf;
 }
-/* line 83, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 .top-button .a:active {
   position: relative;
   top: 1px;
 }
 
-/* line 89, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 .trade-name h3 {
   padding-top: 10%;
 }
 
-/* line 94, ../sass/app.scss */
+/* line 99, ../sass/app.scss */
 .nav-buttons {
   padding-left: 20px;
 }
-/* line 96, ../sass/app.scss */
+/* line 101, ../sass/app.scss */
 .nav-buttons a {
   -webkit-box-shadow: 0px 5px 10px #696969;
   -moz-box-shadow: 0px 5px 10px #696969;
@@ -5537,158 +5538,148 @@ table tfoot tr td {
   margin-right: 25px;
   margin-top: 0;
 }
-/* line 115, ../sass/app.scss */
+/* line 120, ../sass/app.scss */
 .nav-buttons .a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
   background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
   background-color: #dfdfdf;
 }
-/* line 121, ../sass/app.scss */
+/* line 126, ../sass/app.scss */
 .nav-buttons .a:active {
   position: relative;
   top: 1px;
 }
 
-/* line 126, ../sass/app.scss */
-.nav-main {
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-}
-
-/* line 130, ../sass/app.scss */
+/* line 134, ../sass/app.scss */
 .left-holder {
   width: 600px;
   height: 550px;
   background: url("../img/index-left.jpg") no-repeat;
 }
 
-/* line 135, ../sass/app.scss */
+/* line 139, ../sass/app.scss */
 .right-holder {
   width: 380px;
   height: 550px;
   background: url(../img/index-right.jpg) no-repeat;
 }
 
-/* line 140, ../sass/app.scss */
+/* line 144, ../sass/app.scss */
 .maximizing-left-holder {
   width: 480px;
   height: 550px;
   background: url("../img/maximizing-left.jpg") no-repeat;
 }
 
-/* line 145, ../sass/app.scss */
+/* line 149, ../sass/app.scss */
 .maximizing-right-holder {
   width: 480px;
   height: 550px;
   background: url(../img/maximizing-right.jpg) no-repeat;
 }
 
-/* line 150, ../sass/app.scss */
+/* line 154, ../sass/app.scss */
 .employee-left-holder {
   width: 600px;
   height: 550px;
   background: url("../img/employee-left.jpg") no-repeat;
 }
 
-/* line 155, ../sass/app.scss */
+/* line 159, ../sass/app.scss */
 .employee-right-holder {
   width: 380px;
   height: 550px;
   background: url(../img/employee-right.jpg) no-repeat;
 }
 
-/* line 160, ../sass/app.scss */
+/* line 164, ../sass/app.scss */
 .stabilization-left-holder {
   width: 333px;
   height: 550px;
   background: url("../img/stabilization-left.jpg") no-repeat;
 }
 
-/* line 165, ../sass/app.scss */
+/* line 169, ../sass/app.scss */
 .stabilization-middle-holder {
   width: 333px;
   height: 550px;
   background: url(../img/stabilization-middle.jpg) no-repeat;
 }
 
-/* line 170, ../sass/app.scss */
+/* line 174, ../sass/app.scss */
 .stabilization-right-holder {
   width: 333px;
   height: 550px;
   background: url("../img/stabilization-right.jpg") no-repeat;
 }
 
-/* line 175, ../sass/app.scss */
+/* line 179, ../sass/app.scss */
 .improvement-left-holder {
   width: 480px;
   height: 550px;
   background: url("../img/improvement-left.jpg") no-repeat;
 }
 
-/* line 180, ../sass/app.scss */
+/* line 184, ../sass/app.scss */
 .improvement-right-holder {
   width: 480px;
   height: 550px;
   background: url("../img/improvement-right.jpg") no-repeat;
 }
 
-/* line 186, ../sass/app.scss */
+/* line 190, ../sass/app.scss */
 .customer-left-holder {
   width: 480px;
   height: 550px;
   background: url("../img/customer-left.jpg") no-repeat;
 }
 
-/* line 191, ../sass/app.scss */
+/* line 195, ../sass/app.scss */
 .customer-right-holder {
   width: 480px;
   height: 550px;
   background: url(../img/customer-right.jpg) no-repeat;
 }
 
-/* line 196, ../sass/app.scss */
+/* line 200, ../sass/app.scss */
 .contact-left-holder {
   width: 480px;
   height: 550px;
   background: url("../img/contact-left.jpg") no-repeat;
 }
 
-/* line 201, ../sass/app.scss */
+/* line 205, ../sass/app.scss */
 .contact-right-holder {
   width: 480px;
   height: 550px;
   background: url(../img/contact-right.jpg) no-repeat;
 }
 
-/* line 206, ../sass/app.scss */
+/* line 210, ../sass/app.scss */
 .about-left-holder {
   width: 480px;
   height: 550px;
   background: url("../img/about-left.jpg") no-repeat;
 }
 
-/* line 211, ../sass/app.scss */
+/* line 215, ../sass/app.scss */
 .about-right-holder {
   width: 480px;
   height: 550px;
   background: url(../img/about-right.jpg) no-repeat;
 }
 
-/* line 216, ../sass/app.scss */
-.body-main {
-  border-right: 1px solid black;
-  border-left: 1px solid black;
+/* line 223, ../sass/app.scss */
+.background-footer {
+  background-image: -moz-linear-gradient(left, #cbcbcb 51%, #a9adb0);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.51, #cbcbcb), color-stop(1, #a9adb0));
+  background-color: #DDDDDD;
+  height: 24px;
+  border-bottom: 1px solid black;
 }
 
-/* line 220, ../sass/app.scss */
-.footer-style {
-  background: url(../img/footer-img.jpg) no-repeat;
-  height: 24px;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  -webkit-box-shadow: 5px 5px 10px #696969;
-  -moz-box-shadow: 5px 5px 10px #696969;
-  box-shadow: 5px 5px 10px #696969;
+/* line 230, ../sass/app.scss */
+.footer-style p {
+  font-size: 0.6em;
 }
